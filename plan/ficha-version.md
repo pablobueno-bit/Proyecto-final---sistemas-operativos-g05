@@ -1,7 +1,8 @@
 # Ficha de verificación de versión · Grupo 05
 
 **Distribuciones del grupo 05: Zorin OS (gráfica), Fedora Server (consola) y Ubuntu (imagen base del Dockerfile).**
-Aquí se encontraran las preguntas, respuestas y en enlace donde se comprobó los detalles y funcionamiento de cada herramienta usada en el proyecto
+
+Aquí se encontraran las preguntas, respuestas y en enlace donde se comprobó los detalles y funcionamiento de cada herramienta usada en el proyecto.
 
 ## Zorin OS (VM gráfica)
 
