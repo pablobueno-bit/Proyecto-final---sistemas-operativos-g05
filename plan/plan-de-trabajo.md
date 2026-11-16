@@ -1,11 +1,30 @@
 # Plan de trabajo · Grupo 05
 
 ## Integrantes y partes
+ ### sprint 0
+| Integrante | Rol | Qué hace |
+|---|---|---|
+| Pablo | Coordinación y Creación del repositorio | Crea el repositorio en github.com, realiza con éxito la invitación del compañero de equipo al repositorio, verifica el orden de las carpetas y archivos creados por el compañero y realiza entrega del enlace |
+| Kevin | Crea carpetas y archivos para el repositorio | Crea la distribución en carpetas y archivos de lo requerido para el proyecto |
 
-| Integrante | Rol | Qué hace | Archivos o carpeta propios |
-|---|---|---|---|
-| Pablo | Zorin OS y repositorio | Instala Zorin OS en la VM gráfica, toma las capturas y escribe su ficha y su página | distribuciones/zorin-os.md, sprint-1/img/zorin/, conclusiones/pablo.md |
-| Kevin | Fedora Server y Docker | Instala Fedora Server en la VM de consola, escribe el Dockerfile con Ubuntu y toma las capturas | distribuciones/fedora-server.md, distribuciones/ubuntu-docker.md, Docker/, conclusiones/kevin.md |
+ ### sprint 1
+| Integrante | Rol | Qué hace |
+|---|---|---|
+| Pablo |  |  |
+| Kevin |  |  |
+
+ ### sprint 2
+| Integrante | Rol | Qué hace |
+|---|---|---|
+| Pablo |  |  |
+| Kevin |  |  |
+
+ ### sprint 3
+| Integrante | Rol | Qué hace |
+|---|---|---|
+| Pablo |  |  |
+| Kevin |  |  |
+
 
 ## Fechas de los sprints
 
