@@ -8,8 +8,8 @@
 
 | Integrante | Rol | Qué hace | Archivos suyos |
 |---|---|---|---|
-| Pablo | Coordinación, repositorio y VMs | Crea el repositorio, instala las dos VMs, configura la red y SSH, toma las instantáneas | `plan/`, `sprint-1.md` |
-| Kevin | Seguridad, scripts, Docker y videos | Usuarios y firewall, scripts, procesos, Docker, Kubernetes y grabación de los videos | `sprint-2.md`, `sprint-3.md`, carpeta `scripts/` |
+| Kevin | Coordinación, repositorio y VMs | Crea el repositorio, instala las dos VMs, configura la red y SSH, toma las instantáneas | `plan/`, `sprint-1.md` |
+| Pablo | Seguridad, scripts, Docker y videos | Usuarios y firewall, scripts, procesos, Docker, Kubernetes y grabación de los videos | `sprint-2.md`, `sprint-3.md`, carpeta `scripts/` |
 
 Los dos trabajan juntos en el sitio web (portada, conclusiones y declaración de IA). Antes de editar un archivo del otro, avisamos al grupo.
 
