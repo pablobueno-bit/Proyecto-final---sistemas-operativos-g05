@@ -12,4 +12,4 @@
 | Pablo | (su parte) |
 
 ## Repositorio
-[Ver en GitHub](https://github.com/pablobueno-bit/NOMBRE-DEL-REPO)
+[Ver en GitHub](https://github.com/pablobueno-bit/Proyecto-final---sistemas-operativos-g05)
