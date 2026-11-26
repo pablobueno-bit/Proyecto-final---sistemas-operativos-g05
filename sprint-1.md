@@ -26,9 +26,15 @@ cat /etc/fstab
 date
 ```
 
-![Editor de particiones](img/grafica-particiones.png)
-![lsblk, df y fstab](img/grafica-comandos.png)
-![Navegadores y editores instalados](img/grafica-programas.png)
+![Particionado manual](<sprint-1/sprint-1/img/zorin/particionado manual.jpeg>)
+
+![lsblk, df y fstab](<sprint-1/sprint-1/img/zorin/2 terminal.jpeg>)
+
+![Máquina gráfica](<sprint-1/sprint-1/img/zorin/máquina gráfica.jpeg>)
+
+![Navegadores](<sprint-1/sprint-1/img/zorin/navegadores.jpeg>)
+
+![Editores de textos](<sprint-1/sprint-1/img/zorin/editores de textos.jpeg>)
 
 **Explicación:** [qué muestra cada captura y qué navegadores y editores instalamos].
 
