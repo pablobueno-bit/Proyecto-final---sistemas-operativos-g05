@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
 title: Proyecto Final · Sistemas Operativos 750001C
 description: Grupo 5 · Zorin OS, Fedora Server y Ubuntu · Universidad del Valle · 2026-2
-show_downloads: false
+lang: es
