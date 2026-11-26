@@ -30,8 +30,6 @@ date
 
 ![lsblk, df y fstab](<sprint-1/sprint-1/img/zorin/2 terminal.jpeg>)
 
-![Máquina gráfica](<sprint-1/sprint-1/img/zorin/máquina gráfica.jpeg>)
-
 ![Navegadores](<sprint-1/sprint-1/img/zorin/navegadores.jpeg>)
 
 ![Editores de textos](<sprint-1/sprint-1/img/zorin/editores de textos.jpeg>)
