@@ -13,9 +13,9 @@
 
 | Partición | Tamaño | Por qué ese tamaño |
 |---|---|---|
-| `/` | [14 GB] | [razón en una frase] |
-| swap | [3 GB] | [razón en una frase] |
-| `/home` | [8 GB] | [razón en una frase] |
+| `/` | [14 GB] | Aloja el sistema operativo, librerías y aplicaciones instaladas con margen para actualizaciones. |
+| swap | [2 GB] | Respalda la memoria física en disco para evitar cierres por falta de RAM sin quitar demasiado espacio. |
+| `/home` | [9 GB] | Guarda los archivos y configuraciones del usuario aprovechando todo el espacio libre restante del disco. |
 
 **Comandos:**
 
@@ -25,12 +25,35 @@ df -h
 cat /etc/fstab
 date
 ```
+En esta imagen mostramos el particionado manual de la maquina grafica (aclaramos que se ve así porque lastimosamente perdimos la imagen que había antes del recuadro emergente) 
 
 ![Particionado manual](<sprint-1/sprint-1/img/zorin/particionado manual.jpeg>)
 
-![lsblk, df y fstab](<sprint-1/sprint-1/img/zorin/2 terminal.jpeg>)
+En esta imagen mostramos el particionado por medio del comando lsblk
 
-![Navegadores](<sprint-1/sprint-1/img/zorin/navegadores.jpeg>)
+![lsblk](<sprint-1/sprint-1/img/zorin/maquina grafica.jpeg>)
+
+En esta imagen muestra cuánto espacio libre/usado tiene cada partición montada en formato legible (GB/MB) con el comando df -h y  luego se puede apreciar el comando cat /etc/fstab el cual muestra cómo quedan configuradas las particiones para montarse automáticamente al iniciar el sistema.
+
+![df y fstab](<sprint-1/sprint-1/img/zorin/2 terminal.jpeg>)
+
+
+
+**Instalación de los navegadores y editores de texto:**
+
+**Comandos:**
+
+```
+sudo apt update
+sudo apt install -y chromium-browser firefox
+sudo apt install -y geany vim nano
+sudo dnf install -y make rsync curl git wget
+which make rsync curl git wget
+
+```
+![Navegadores1](<sprint-1/sprint-1/img/zorin/Captura de pantalla 2026-11-26 101358.png>)
+![Navegadores2](<sprint-1/sprint-1/img/zorin/navegadores.jpeg>)
+![Navegadores3](<sprint-1/sprint-1/img/zorin/navegadores.jpeg>)
 
 ![Editores de textos](<sprint-1/sprint-1/img/zorin/editores de textos.jpeg>)
 
