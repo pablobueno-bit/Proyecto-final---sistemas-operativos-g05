@@ -128,8 +128,18 @@ Finalización de la instalación de herramientas y después se ejecuta los coman
 ## 3. Red
 
 **Qué hicimos:** [adaptador 1 en NAT y adaptador 2 en solo anfitrión en las dos VMs].
+
+En estas imágenes se puede validar que están en NAT y solo anfitrión ambas VM
+
+Adaptador de  Red de la VM grafica
+
 ![verifica red grafica](sprint-1/sprint-1/img/zorin/grafica_verifacion_red.jpeg)
+
+Adaptador de  Red de la VM consola
+
 ![verifica red consola](<sprint-1/sprint-1/img/fedora/Consola_adaptador_red.jpeg>)
+
+**Comandos:**
 
 ```
 ip a
@@ -137,8 +147,8 @@ ping -c 2 IP_DE_LA_OTRA_VM
 date
 ```
 
-![ip a y ping desde la gráfica](img/red-grafica.png)
-![ip a y ping desde la consola](img/red-consola.png)
+![IP de la VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_ip_a.jpeg>)
+![IP de la consola](<sprint-1/sprint-1/img/fedora/consola_ip_a.jpeg>)
 
 **Explicación:** [IP que recibió cada VM en cada interfaz y por qué con solo NAT no se verían].
 
