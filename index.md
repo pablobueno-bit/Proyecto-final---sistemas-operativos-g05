@@ -5,7 +5,8 @@
 # Dos máquinas virtuales, Docker y Kubernetes
 
 ## Objetivo
-(tu texto)
+
+Registrar paso a paso la implementación, configuración y pruebas de infraestructura del Grupo 5 para el curso de Sistemas Operativos (750001C). A lo largo de los tres sprints se evidencia el aprovisionamiento de máquinas virtuales (Zorin OS y Fedora Server), la gestión de redes, almacenamiento y acceso remoto, así como el despliegue de aplicaciones en Docker y Kubernetes, acompañados de un comparativo técnico de distribuciones y sus respectivas conclusiones.
 
 ## Integrantes y aporte
 
