@@ -216,9 +216,14 @@ Ahora se crea el archivo para el código que nos fue asignado con el comando: ec
 
 ![Código del Sprint 1 en VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_codigo_sprint1.jpeg>)
 
-Por ultimo ejecutamos el comando sudo poweroff para cerrcar la conexion entre ambas maquinas y volver
+Antes del final ejecutamos el comando sudo poweroff para cerrcar la conexion entre ambas maquinas y volver a la terminar de la propia VM grafica
 
 ![Apagado con sudo poweroff en VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_sudo_poweOff.jpeg>)
+
+Finalmente ejecutamos sudo poweroff en la VM grafica para apagarla y cerrarla, a continuación se muestra el después de ejecutar el comando  
+
+![Verificación después de sudo poweroff](<sprint-1/sprint-1/img/zorin/grafica_sudo_powerOff_después.jpeg>)
+
 
 ## 5. Instantáneas
 
