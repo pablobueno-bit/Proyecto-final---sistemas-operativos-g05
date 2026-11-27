@@ -147,6 +147,7 @@ ping -c 2 IP_DE_LA_OTRA_VM
 date
 
 Aclaración: se uso la concatenacion: date && ip a
+
 ```
 A continuación se puede visualizar el uso del comando  "date && ip a" el cual arrojo como resultado para la VM grafica: 192.168.56.101. y para la VM  de consola: 192.168.56.102.
 
@@ -177,8 +178,13 @@ En la VM de consola
 **Qué hicimos:** Con el comando de ssh conectamos la VM grafica con la VM de consola como se podrá apreciar a continuación.
 
 ```
+hostname && whoami && date
 ssh usuario@IP_DE_LA_CONSOLA
+sudo poweroff
 date
+echo "NN05-3GSN" > ~/codigo_sprint1.txt && cat ~/codigo_sprint1.txt && date
+cat ~/codigo_sprint1.txt && date
+
 ```
 Ejecutamos el comando ssh pablo@192.168.56.102
 
@@ -206,8 +212,13 @@ whoami: Muestra el usuario activo en esa sesión (pablo)
 date: Imprime la fecha y hora del sistema
 
 
-Por ultimo ejecutamos el comando
+Ahora se crea el archivo para el código que nos fue asignado con el comando: echo "NN05-3GSN" > ~/codigo_sprint1.txt && cat ~/codigo_sprint1.txt && date y luego cat ~/codigo_sprint1.txt && date
 
+![Código del Sprint 1 en VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_codigo_sprint1.jpeg>)
+
+Por ultimo ejecutamos el comando sudo poweroff para cerrcar la conexion entre ambas maquinas y volver
+
+![Apagado con sudo poweroff en VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_sudo_poweOff.jpeg>)
 
 ## 5. Instantáneas
 
