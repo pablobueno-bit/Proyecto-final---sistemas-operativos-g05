@@ -106,11 +106,22 @@ df -h
 cat /etc/fstab
 which make rsync curl git wget
 date
-```
+Aclaración: se concatenaron los anteriores comandos en una sola linea como se indica mas adelante
 
-![Editor de particiones](img/consola-particiones.png)
-![lsblk, df y fstab](img/consola-comandos.png)
-![Herramientas instaladas](img/consola-herramientas.png)
+comando de instalación de herramientas de consola:
+sudo dnf install -y make rsync curl git wget
+```
+Empezamos con el editor manual de particiones del installardor de fedora server, aquí decidnos el tamaño de cada partición como se indico en la tabla anterior
+
+![Partición importante](<sprint-1/sprint-1/img/fedora/consola_partcion_importante.jpeg>)
+
+Se inicia la  instalación de las herramientas de la VM de consola con el comando: sudo dnf install -y make rsync curl git wget
+
+![Inicio de instalación de herramientas](<sprint-1/sprint-1/img/fedora/Consola_inicio_instalacion_herramientas.jpeg>)
+
+Finalización de la instalación de herramientas y después se ejecuta los comandos concatenados para revisar las particiones y verificar la ruta  : date && lsblk && df -h && cat /etc/fstab && which make rsync curl git wget
+
+![Finalización de instalación de herramientas](<sprint-1/sprint-1/img/fedora/Consola_finalizacion_DeInstalacion_herramientas.jpeg>)
 
 **Explicación:** [qué muestra cada captura].
 
