@@ -170,6 +170,8 @@ En la VM de consola
 
 ![Prueba de ping](<sprint-1/sprint-1/img/fedora/consola_ping.jpeg>)
 
+**Explicación:** El comando ping -c 2 IP_DE_LA_OTRA_VM sirve para comprobar si la otra máquina virtual (g05-grafica o g05-consola) responde en la red enviando exactamente 2 paquetes de prueba y deteniéndose automáticamente.
+
 ## 4. SSH
 
 **Qué hicimos:** Con el comando de ssh conectamos la VM grafica con la VM de consola como se podrá apreciar a continuación.
@@ -178,10 +180,19 @@ En la VM de consola
 ssh usuario@IP_DE_LA_CONSOLA
 date
 ```
+Ejecutamos el comando ssh pablo@192.168.56.102
 
-![Sesión SSH abierta](img/ssh.png)
+![Conexión SSH en VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_ssh.jpeg>)
 
-**Explicación:** [qué es SSH y qué se ve en la captura].
+**Explicación:** es el comando que permite abrir una terminal remota en otra máquina a través de la red mediante una conexión cifrada (SSH significa Secure Shell).
+ssh: El programa cliente que inicia la conexión segura hacia el servidor remoto.
+usuario: El nombre de la cuenta con el que iniciare sesión en la máquina de destino (pablo)
+@: Separador que indica «en» (conectar tal usuario en tal dirección).
+IP_DE_LA_CONSOLA: La dirección IP de la máquina a la que te conectas (en tu proyecto, la IP del adaptador solo-anfitrión de g05-consola, que es 192.168.56.102).
+
+Se ejecuto el comando hostname && whoami && date al ya haber conectado y iniciado sesión en la terminal de la VM de consola a traves de la terminal de la VM grafica 
+
+![Hostname de la VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_hostname.jpeg>)
 
 ## 5. Instantáneas
 
