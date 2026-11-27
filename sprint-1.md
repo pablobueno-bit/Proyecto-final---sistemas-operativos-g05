@@ -222,15 +222,20 @@ Antes del final ejecutamos el comando sudo poweroff para cerrcar la conexion ent
 
 Finalmente ejecutamos sudo poweroff en la VM grafica para apagarla y cerrarla, a continuación se muestra el después de ejecutar el comando  
 
-![Verificación después de sudo poweroff](<sprint-1/sprint-1/img/zorin/grafica_sudo_powerOff_después.jpeg>)
+![Verificación después de sudo poweroff](<sprint-1/sprint-1/img/zorin/grafica_sudo_powerOff_despues.jpeg>)
 
 
 ## 5. Instantáneas
 
-**Qué hicimos:** [una instantánea llamada `instalacion-limpia` por VM, con la VM apagada].
+**Qué hicimos:** una instantánea llamada `instalación-limpia` por VM, con la VM apagada siguiendo los pasos dados en la guia proporcionada por el profesor.
 
-![Instantánea de g05-grafica](img/snap-grafica.png)
-![Instantánea de g05-consola](img/snap-consola.png)
+Instantánea de la VM grafica 
+
+![Instalación limpia en VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_instalacion_limpia.jpeg>)
+
+Instantánea de la VM de consola
+
+![Instalación limpia](<sprint-1/sprint-1/img/fedora/Consola_instalación_limpia.jpeg>)
 
 **Explicación:** [para qué sirve una instantánea].
 
