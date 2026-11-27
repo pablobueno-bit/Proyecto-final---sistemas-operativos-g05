@@ -250,6 +250,7 @@ En la VM grafica: cabe aclarar que esta captura se tomo antes de cerrar con sudo
 
 En la VM de consola: se ingresaron nuevamente los comandos concatenados para ver que sucedía (ya que en cuando se conecto con la VM grafica se creo desde haya ) : echo "NN05-3GSN" > ~/codigo_sprint1.txt && cat ~/codigo_sprint1.txt && date
 
+
 ![Archivo de código en VM consola](<sprint-1/sprint-1/img/fedora/creacion_txt_codigo_consola.png>)
 
 
