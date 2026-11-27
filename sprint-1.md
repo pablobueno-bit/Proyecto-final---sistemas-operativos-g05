@@ -145,6 +145,8 @@ Adaptador de  Red de la VM consola
 ip a
 ping -c 2 IP_DE_LA_OTRA_VM
 date
+
+Aclaración: se uso la concatenacion: date && ip a
 ```
 A continuación se puede visualizar el uso del comando  "date && ip a" el cual arrojo como resultado para la VM grafica: 192.168.56.101. y para la VM  de consola: 192.168.56.102.
 
@@ -157,7 +159,7 @@ En la VM de consola
 ![IP de la consola](<sprint-1/sprint-1/img/fedora/consola_ip_a.jpeg>)
 
 
-**Explicación:** [IP que recibió cada VM en cada interfaz y por qué con solo NAT no se verían].
+**Explicación:** En VirtualBox, cada máquina virtual configurada únicamente en NAT queda aislada detrás de su propio espacio de traducción de direcciones de red (NAT) virtual y por eso no se podrían ver mutuamente solo con NAT.
 
 ## 4. SSH
 
