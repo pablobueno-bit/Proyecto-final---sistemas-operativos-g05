@@ -237,11 +237,20 @@ Instantánea de la VM de consola
 
 ![Instalación limpia](<sprint-1/sprint-1/img/fedora/Consola_instalación_limpia.jpeg>)
 
-**Explicación:** [para qué sirve una instantánea].
+**Explicación:** Una instantánea (snapshot) en VirtualBox guarda el estado exacto de una máquina virtual en un momento determinado —incluyendo su disco duro y su configuración— para que se pueda volver a ese punto más adelante.
+En la práctica funciona como un punto de guardado de un videojuego.
 
 ## Código del sprint
 
-![codigo_sprint1.txt con cat y date](img/codigo-sprint1.png)
+En este apartado veremos nuevamente la creación del archivo.txt del código que nos asigno el profe solo que esta ves como se ve en cada una de las VMS
+
+En la VM grafica: cabe aclarar que esta captura se tomo antes de cerrar con sudo poweroff la VM grafica
+
+![Archivo de código en VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_archivo_codigo.jpeg>)
+
+En la VM de consola: se ingresaron nuevamente los comandos concatenados para ver que sucedia: echo "NN05-3GSN" > ~/codigo_sprint1.txt && cat ~/codigo_sprint1.txt && date
+
+
 
 ## Errores y soluciones
 
