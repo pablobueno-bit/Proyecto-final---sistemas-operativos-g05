@@ -128,6 +128,8 @@ Finalización de la instalación de herramientas y después se ejecuta los coman
 ## 3. Red
 
 **Qué hicimos:** [adaptador 1 en NAT y adaptador 2 en solo anfitrión en las dos VMs].
+![verifica red grafica](sprint-1/sprint-1/img/zorin/grafica_verifacion_red.jpeg)
+![verifica red consola](<sprint-1/sprint-1/img/fedora/Consola_adaptador_red.jpeg>)
 
 ```
 ip a
