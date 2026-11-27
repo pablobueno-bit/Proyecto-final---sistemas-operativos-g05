@@ -9,7 +9,11 @@
 
 ## 1. VM gráfica (g05-grafica)
 
-**Qué hicimos:** [instalamos Zorin OS con particionado manual en un disco de 25 GB, con 4 CPU y X GB de RAM].
+Estos son los detalles la VM grafica llamada g05-grafica y a continuación se mostrara la evidencia de todo lo que se realizo con ella
+
+![Maquina_grafica_detalles](<sprint-1/sprint-1/img/zorin/Grafica_detalles.png>)
+
+**Qué hicimos:** [instalamos Zorin OS con particionado manual en un disco de 25 GB, con 2 CPU y 4 GB de RAM, 128 MB memoria de video].
 
 | Partición | Tamaño | Por qué ese tamaño |
 |---|---|---|
@@ -67,7 +71,7 @@ en la siguiente se instalaron los editores de texto/codigo con sudo apt install 
 
 ![Navegadores2](<sprint-1/sprint-1/img/zorin/Captura de pantalla 2026-11-26 102415.png>)
 
-Verificación de las rutas de los navegadores y editores ejecutando: which brave-browser firefox geany vim nano 
+Finalizacion de la instalacion de los Verificación de las rutas de los navegadores y editores ejecutando: which brave-browser firefox geany vim nano 
 
 ![Navegadores3](<sprint-1/sprint-1/img/zorin/Captura de pantalla 2026-11-26 105035.png>)
 
@@ -80,14 +84,19 @@ Ahora se pueden apreciar los 3 editores de texto abiertos
 
 ## 2. VM consola (g05-consola)
 
-**Qué hicimos:** [instalamos Fedora Server con particionado manual, 25 GB, 2 CPU, X GB de RAM].
+Estos son los detalles la VM de consola llamada g05-consola y a continuación se mostrara la evidencia de todo lo que se realizo con ella
+
+![Maquina_consola_detalles](<sprint-1/sprint-1/img/zorin/Consola_detalles.png>)
+
+**Qué hicimos:** [instalamos Fedora Server con particionado manual, 25 GB, 2 CPU, 2 GB de RAM, 16 MB memoria de video].
 
 | Partición | Tamaño | Por qué ese tamaño |
 |---|---|---|
 | `/` | [7 GB] | [razón] |
 | swap | [2 GB] | [razón] |
 | `/var` | [12 GB] | [razón] |
-| `/home` | [4 GB] | [razón] |
+| `/home` | [3.9 GB] | [razón] |
+ | `BIOS boot` | [2 MB] | [razón] |
 
 **Comandos:**
 
