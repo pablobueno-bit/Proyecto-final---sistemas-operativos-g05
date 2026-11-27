@@ -146,9 +146,16 @@ ip a
 ping -c 2 IP_DE_LA_OTRA_VM
 date
 ```
+A continuación se puede visualizar el uso del comando  "date && ip a" el cual arrojo como resultado para la VM grafica: 192.168.56.101. y para la VM  de consola: 192.168.56.102.
+
+En la VM grafica:
 
 ![IP de la VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_ip_a.jpeg>)
+
+En la VM de consola
+
 ![IP de la consola](<sprint-1/sprint-1/img/fedora/consola_ip_a.jpeg>)
+
 
 **Explicación:** [IP que recibió cada VM en cada interfaz y por qué con solo NAT no se verían].
 
