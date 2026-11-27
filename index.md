@@ -1,5 +1,3 @@
-<img src="logo.png" alt="Logo del proyecto" height="60">
-
 [Inicio](index.html) · [Distribuciones](distribuciones/) · [Sprint 1](sprint-1.html) · [Sprint 2](sprint-2.html) · [Sprint 3](sprint-3.html) · [Comparativo](comparativo.html) · [Conclusiones](conclusiones/) · [Declaración de IA](declaracion-ia.html)
 
 # Dos máquinas virtuales, Docker y Kubernetes
@@ -16,4 +14,5 @@ Registrar paso a paso la implementación, configuración y pruebas de infraestru
 | Kevin Valencia | Implementación, estructuración y publicación del sitio en GitHub Pages (`_config.yml`, layouts, rutas y enlaces), organización y validación visual de evidencias y capturas, ejecución de pruebas y revisiones de funcionamiento, y trabajo colaborativo de apoyo mutuo con Pablo. |
 
 ## Repositorio
-[Ver en GitHub](https://github.com/pablobueno-bit/Proyecto-final---sistemas-operativos-g05.git)
+
+[Ver en GitHub](https://github.com/pablobueno-bit/Proyecto-final---sistemas-operativos-g05)
