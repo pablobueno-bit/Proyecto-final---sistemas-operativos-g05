@@ -4,8 +4,9 @@
 
 ## Video del sprint
 
-<iframe width="560" height="315" src="https://youtu.be/2NYRG-uS-0s?si=-JvHdHPkt6n6JtPm"
- title="Sprint 1" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2NYRG-uS-0s" title="Sprint 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[Ver video en YouTube](https://youtu.be/2NYRG-uS-0s)
 
 ## 1. VM gráfica (g05-grafica)
 
