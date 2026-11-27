@@ -158,12 +158,21 @@ En la VM de consola
 
 ![IP de la consola](<sprint-1/sprint-1/img/fedora/consola_ip_a.jpeg>)
 
-
 **Explicación:** En VirtualBox, cada máquina virtual configurada únicamente en NAT queda aislada detrás de su propio espacio de traducción de direcciones de red (NAT) virtual y por eso no se podrían ver mutuamente solo con NAT.
+
+Ahora se muestra la ejecucion del comando "ping -c 2 IP_DE_LA_OTRA_VM" en ambas MVS
+
+En la VM grafica:
+
+![Prueba de ping en VM gráfica](<sprint-1/sprint-1/img/zorin/grafica_ping.jpeg>)
+
+En la VM de consola
+
+![Prueba de ping](<sprint-1/sprint-1/img/fedora/consola_ping.jpeg>)
 
 ## 4. SSH
 
-**Qué hicimos:** [entramos desde la gráfica a la consola].
+**Qué hicimos:** Con el comando de ssh conectamos la VM grafica con la VM de consola como se podrá apreciar a continuación.
 
 ```
 ssh usuario@IP_DE_LA_CONSOLA
