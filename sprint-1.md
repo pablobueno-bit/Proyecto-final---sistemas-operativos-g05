@@ -92,11 +92,11 @@ Estos son los detalles la VM de consola llamada g05-consola y a continuación se
 
 | Partición | Tamaño | Por qué ese tamaño |
 |---|---|---|
-| `/` | [7 GB] | [razón] |
-| swap | [2 GB] | [razón] |
-| `/var` | [12 GB] | [razón] |
-| `/home` | [3.9 GB] | [razón] |
- | `BIOS boot` | [2 MB] | [razón] |
+| `/` | [7 GB] | Supera el mínimo de 5 GB para alojar el sistema operativo base, servicios, configuraciones y herramientas solicitadas con margen libre. |
+| swap | [2 GB] | Duplica el mínimo de 1 GB exigido para dar espacio de intercambio y respaldo de memoria ante picos de carga. |
+| `/var` | [12 GB] | Supera el mínimo de 10 GB porque aquí Docker y Minikube guardan imágenes, contenedores y volúmenes en /var/lib/docker sin llenar el resto del sistema. |
+| `/home` | [3.9 GB] | Supera el mínimo de 1 GB para almacenar archivos de usuario, scripts, códigos y carpetas de trabajo de forma aislada. |
+ | `BIOS boot` | [2 MB] | Es una partición pequeña de arranque necesaria cuando el disco usa tabla GPT en modo BIOS/legado para alojar el cargador de arranque. |
 
 **Comandos:**
 
