@@ -12,8 +12,8 @@ Registrar paso a paso la implementación, configuración y pruebas de infraestru
 
 | Integrante | Lo que hizo |
 | --- | --- |
-| Kevin | Organización del sitio en GitHub Pages, capturas/evidencias y [tu aporte específico]. |
-| Pablo | Configuración de máquinas virtuales y [su aporte específico]. |
+| Pablo Bueno | Aprovisionamiento y configuración de las máquinas virtuales, particionado/almacenamiento, ajustes de red y acceso remoto, ejecución de pruebas funcionales, resolución de incidencias y depuración de errores del sistema, además de apoyo técnico mutuo durante el desarrollo. |
+| Kevin Valencia | Implementación, estructuración y publicación del sitio en GitHub Pages (`_config.yml`, layouts, rutas y enlaces), organización y validación visual de evidencias y capturas, ejecución de pruebas y revisiones de funcionamiento, y trabajo colaborativo de apoyo mutuo con Pablo. |
 
 ## Repositorio
-[Ver en GitHub](https://github.com/pablobueno-bit/Proyecto-final---sistemas-operativos-g05)
+[Ver en GitHub](https://github.com/pablobueno-bit/Proyecto-final---sistemas-operativos-g05.git)
