@@ -121,9 +121,9 @@ Se inicia la  instalación de las herramientas de la VM de consola con el comand
 
 Finalización de la instalación de herramientas y después se ejecuta los comandos concatenados para revisar las particiones y verificar la ruta  : date && lsblk && df -h && cat /etc/fstab && which make rsync curl git wget
 
-![Finalización de instalación de herramientas](<sprint-1/sprint-1/img/fedora/Consola_finalizacion_DeInstalacion_herramientas.jpeg>)
+![Finalización de instalación de herramientas](<sprint-1/sprint-1/img/fedora/Consola_finalizacion_DeInstalizacion_herramientas.jpeg>)
 
-**Explicación:** [qué muestra cada captura].
+**Explicación:** En esta parte se certifico al final con "which make rsync curl git wget" la ruta donde se instalaron las herramientas sin arrojar ningun error .
 
 ## 3. Red
 
