@@ -8,10 +8,11 @@
 (tu texto)
 
 ## Integrantes y aporte
+
 | Integrante | Lo que hizo |
-|---|---|
-| Kevin | (tu parte del plan de trabajo) |
-| Pablo | (su parte) |
+| --- | --- |
+| Kevin | Organización del sitio en GitHub Pages, capturas/evidencias y [tu aporte específico]. |
+| Pablo | Configuración de máquinas virtuales y [su aporte específico]. |
 
 ## Repositorio
 [Ver en GitHub](https://github.com/pablobueno-bit/Proyecto-final---sistemas-operativos-g05)
