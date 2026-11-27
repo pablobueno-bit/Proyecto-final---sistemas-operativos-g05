@@ -9,7 +9,7 @@
 
 ## 1. VM gráfica (g05-grafica)
 
-**Qué hicimos:** [instalamos Zorin OS con particionado manual en un disco de 25 GB, con 2 CPU y X GB de RAM].
+**Qué hicimos:** [instalamos Zorin OS con particionado manual en un disco de 25 GB, con 4 CPU y X GB de RAM].
 
 | Partición | Tamaño | Por qué ese tamaño |
 |---|---|---|
@@ -51,13 +51,32 @@ sudo dnf install -y make rsync curl git wget
 which make rsync curl git wget
 
 ```
+En la siguiente imagen se puede apreciar el uso del sudo apt update el cual descarga y actualiza la lista local de paquetes disponibles desde los repositorios configurados en el sistema.
+
+![Navegadores2](<sprint-1/sprint-1/img/zorin/4a018a04-daa4-495e-b787-2a878e326c7f.jpg>)
+
+En esta se realizo la instalación de los navegadores con el comando sudo apt install -y chromium-browser firefox
+
 ![Navegadores1](<sprint-1/sprint-1/img/zorin/Captura de pantalla 2026-11-26 101358.png>)
+
+Aquí se ven a los 2 navegadores instalados ya abiertos y funcionando 
+
 ![Navegadores2](<sprint-1/sprint-1/img/zorin/navegadores.jpeg>)
-![Navegadores3](<sprint-1/sprint-1/img/zorin/navegadores.jpeg>)
+
+en la siguiente se instalaron los editores de texto/codigo con sudo dnf install -y make rsync curl git wget
+
+![Navegadores2](<sprint-1/sprint-1/img/zorin/Captura de pantalla 2026-11-26 102415.png>)
+
+Verificación de las rutas de los navegadores y editores ejecutando: which brave-browser firefox geany vim nano 
+
+![Navegadores3](<sprint-1/sprint-1/img/zorin/Captura de pantalla 2026-11-26 105035.png>)
+
+Ahora se pueden apreciar los 3 editores de texto abiertos
 
 ![Editores de textos](<sprint-1/sprint-1/img/zorin/editores de textos.jpeg>)
 
-**Explicación:** [qué muestra cada captura y qué navegadores y editores instalamos].
+
+**Aqui damos por finalizado el proceso de instalar los mavegadores y los editores de texto/codigo para la maquina g05-grafica**.
 
 ## 2. VM consola (g05-consola)
 
