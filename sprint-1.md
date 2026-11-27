@@ -63,7 +63,7 @@ Aquí se ven a los 2 navegadores instalados ya abiertos y funcionando
 
 ![Navegadores2](<sprint-1/sprint-1/img/zorin/navegadores.jpeg>)
 
-en la siguiente se instalaron los editores de texto/codigo con sudo dnf install -y make rsync curl git wget
+en la siguiente se instalaron los editores de texto/codigo con sudo apt install -y geany vim nano
 
 ![Navegadores2](<sprint-1/sprint-1/img/zorin/Captura de pantalla 2026-11-26 102415.png>)
 
